@@ -16,6 +16,12 @@ The Ultimate Fortress Foundation OS (TUFF-OS) is a security-focused OS that prov
 - **Version**: 1.0 (Final Release)
 - **Target**: x86_64 UEFI Secure Boot compliant
 
+## Development Support & Source Code Access
+TUFF-OS is currently developed and maintained as an independent project. To support the continued development and testing on physical hardware, we humbly request your assistance.
+
+- **Support via Wishlist**: If you find this project valuable, please consider supporting us through our [Amazon Wishlist](https://www.amazon.jp/hz/wishlist/ls/3NB2B9PB5XJ3I?ref_=wl_share). Your support is deeply appreciated and will directly contribute to the project's growth.
+- **Source Code Access**: The source code is currently available to a limited audience. If you wish to access the source code for research or collaborative purposes, please reach out to us with your Git account information. We would be honored to share it with you privately.
+
 ## License
 - Free for Individual, Research, and Non-Commercial use.
 - Commercial use requires an individual contract.
