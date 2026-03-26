@@ -26,3 +26,17 @@ TUFF-OS is currently developed and maintained as an independent project. To supp
 - Free for Individual, Research, and Non-Commercial use.
 - Commercial use requires an individual contract.
 See [LICENSE](LICENSE) for details.
+
+---
+
+## Third-Party API and Trademark Notice
+
+This product may use a compute backend built on the Vulkan API where available.
+
+Vulkan is a registered trademark of The Khronos Group Inc.
+
+The Khronos Group Inc. is not the developer, vendor, maintainer, support provider, certifier, or end-user operator of this product. The Khronos Group Inc. does not endorse this product, and is not responsible for this product’s design, implementation, operation, maintenance, support, safety, security, regulatory status, or any direct or indirect results arising from its use.
+
+Any optional Vulkan-based backend in this product is provided solely by this product’s own developers and distributors. Unless explicitly stated otherwise under separately satisfied Khronos requirements, this product does not claim Khronos conformance, Khronos compliance, Khronos certification, official Vulkan support status, or any other Khronos approval.
+
+For license and attribution details regarding any redistributed third-party components, see `THIRD_PARTY_NOTICES.md` and `TRADEMARKS.md`.
