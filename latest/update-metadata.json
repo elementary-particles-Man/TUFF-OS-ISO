@@ -7,6 +7,12 @@
   "release_notes": "Production release v1.1.0-20260403. Enforced Approach A Sealing with SIG:V1.",
   "deltas": [
     {
+      "from_version": "1.0.0",
+      "patch_url": "deltas/v1.0.0_to_v1.1.0.tpatch",
+      "patch_sig": "SIG:V1[a0]3d944ec5032c6fb89e1eb3bf726be2e1d90ba52c:69-9aeabbc0d1882f04b25b7df7639c5c333bec81d3[e7]734717a72d1d9356d5a9e556dc829252eb7886c4eeeb72db",
+      "patch_size": 16984064
+    },
+    {
       "from_version": "1.1.0",
       "patch_url": "deltas/v1.1.0_to_v1.1.0.tpatch",
       "patch_sig": "SIG:V1[a0]3d944ec5032c6fb89e1eb3bf726be2e1d90ba52c:69-9aeabbc0d1882f04b25b7df7639c5c333bec81d3[e7]734717a72d1d9356d5a9e556dc829252eb7886c4eeeb72db",
