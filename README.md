@@ -13,8 +13,9 @@ This repository contains the installation images (ISO) and release artifacts for
 The Ultimate Fortress Foundation OS (TUFF-OS) is a security-focused OS that provides absolute data sovereignty at the physical layer.
 
 ## Distribution
-- **Version**: 1.0 (Final Release)
+- **Version**: 1.1.0 (Installer-Boot Release)
 - **Target**: x86_64 UEFI Secure Boot compliant
+- **Latest ISO**: `latest/TUFF-OS-latest.iso`
 
 ## Development Support & Source Code Access
 TUFF-OS is currently developed and maintained as an independent project. To support the continued development and testing on physical hardware, we humbly request your assistance.
