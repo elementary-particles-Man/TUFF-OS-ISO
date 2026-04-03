@@ -1,16 +1,16 @@
 {
   "version": "1.1.0",
   "build_date": "20260403",
-  "full_iso_sig": "SIG:V1[fd]a50f832f274cd8e8559e085cf952c1893cd438ef:d4-45ca36ba352b8f171344bf69db8d575894e355c4[be]3c0e0e3eae211189cb033e2c695de2f0a90da1a014a5461a",
-  "full_iso_size": 16947200,
+  "full_iso_sig": "SIG:V1[42]312634ccafcebafc4911a55946a299cb8511a4e9:c5-b5e7eb1541b52a493dbf8be8d5f8d5576ade4c8b[fd]18275957ed8172c52b2492b74fcf5841355ed693fb1e07cd",
+  "full_iso_size": 15808512,
   "critical": true,
   "release_notes": "Production release v1.1.0-20260403. Enforced Approach A Sealing with SIG:V1.",
   "deltas": [
     {
       "from_version": "1.1.0",
       "patch_url": "deltas/v1.1.0_to_v1.1.0.tpatch",
-      "patch_sha512": "d2ac968fa3af8c487609670b160ca7cf6431ea6773b0caadf18ddf579770d65de1051e057fe21dda498b114e9dcb0fbdae4fae5545c907b25951b6c605f10967",
-      "patch_size": 124
+      "patch_sig": "SIG:V1[42]312634ccafcebafc4911a55946a299cb8511a4e9:c5-b5e7eb1541b52a493dbf8be8d5f8d5576ade4c8b[fd]18275957ed8172c52b2492b74fcf5841355ed693fb1e07cd",
+      "patch_size": 15808512
     }
   ]
 }
