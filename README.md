@@ -1,6 +1,6 @@
-# TUFF-OS ISO Repository
+# TUFF-OS LiveUSB Repository
 
-This repository contains the installation images (ISO) and release artifacts for TUFF-OS.
+This repository contains the TUFF-OS LiveUSB installation images and release artifacts.
 
 ## Status
 - **VM Testing**: Complete (All tests passed in QEMU environment).
@@ -13,10 +13,11 @@ This repository contains the installation images (ISO) and release artifacts for
 The Ultimate Fortress Foundation OS (TUFF-OS) is a security-focused OS that provides absolute data sovereignty at the physical layer.
 
 ## Distribution
-- **Version**: 1.1.0 (Installer-Boot Release)
+- **Version**: 1.1.0 (LiveUSB Installer Release)
 - **Target**: x86_64 UEFI Secure Boot compliant
-- **Latest ISO**: `latest/TUFF-OS-latest.iso`
-- **ISO Generation**: Release ISO images are produced with the standard release tool, `tools/tuff-builder`, and are not hand-assembled or manually edited.
+- **Latest Image**: `latest/TUFF-OS-latest.iso`
+- **Image Format**: ISO image for LiveUSB write and UEFI boot
+- **Image Generation**: Release images are produced with the standard release tool and are not hand-assembled or manually edited.
 
 ## Development Support & Source Code Access
 TUFF-OS is currently developed and maintained as an independent project. To support the continued development and testing on physical hardware, we humbly request your assistance.
