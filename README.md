@@ -19,6 +19,25 @@ The Ultimate Fortress Foundation OS (TUFF-OS) is a security-focused OS that prov
 - **Image Format**: ISO image for LiveUSB write and UEFI boot
 - **Image Generation**: Release images are produced with the standard release tool and are not hand-assembled or manually edited.
 
+## Using the ISO
+1. Download the matching set from the same commit:
+   - `latest/TUFF-OS-latest.iso`
+   - `latest/TUFF-OS-latest.iso.sigv1`
+   - `latest/update-metadata.json`
+2. Write `latest/TUFF-OS-latest.iso` directly to a USB drive. Do not extract the ISO and do not copy its files manually.
+3. Recommended writing tools:
+   - Linux: `sudo dd if=latest/TUFF-OS-latest.iso of=/dev/sdX bs=4M status=progress oflag=sync`
+   - Windows: Rufus or balenaEtcher in raw image write mode
+4. Boot the target machine in UEFI mode from that USB drive and follow the installer flow.
+5. Keep the `.sigv1` file and `update-metadata.json` together with the ISO when mirroring or redistributing the release.
+
+## Applying Differential Updates
+- Differential packages are published under `deltas/*.tpatch`.
+- End users should not unpack or regenerate `.tpatch` files by hand. On an installed TUFF-OS system, run `tuffutl TUFFOS update`.
+- The updater reads `latest/update-metadata.json`, selects the matching `deltas/v<from>_to_v<to>.tpatch`, verifies `patch_sig`, applies the patch, and then verifies the rebuilt result against `full_iso_sig`.
+- If no matching delta exists, the updater falls back to the full ISO path.
+- If signature verification fails, abort the update immediately and re-download the matching release set from this repository. Do not mix files from different commits.
+
 ## Development Support & Source Code Access
 TUFF-OS is currently developed and maintained as an independent project. To support the continued development and testing on physical hardware, we humbly request your assistance.
 
